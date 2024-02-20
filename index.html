@@ -132,6 +132,13 @@
         </div>
     </section>
 
+    <script>
+        let button = document.getElementById('test-display');
+        button.addEventListener('click', () => {
+            let middlePhoto = document.getElementById('middle')
+            middlePhoto.style.display = middlePhoto.style.display === 'none' ? 'inline' : 'none'
+        })
+    </script>
 
 </body>
 </html>

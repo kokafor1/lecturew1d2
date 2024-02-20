@@ -135,7 +135,7 @@ aside ~ h3 {
 
 #before-example::before
 {
-    content: url(https://);
+    content: url("https://picsum.photos/300/100?random=2");
 }
 
 /* Attribute Selectors - style HTML elements that have specific attributes or attribute values */
@@ -185,7 +185,16 @@ div[title*="border"] {
 
 
 /* CSS DISPLAYS */
-
+.block-level {
+    border: 5px solid black;
+}
+.block-level > h3 {
+    border: 3px solid magenta;
+    display: inline;
+}
+#display a {
+    border: 3px solid firebrick;
+}
 
 
 /*
@@ -193,7 +202,10 @@ div[title*="border"] {
     Used to hide an element. Commonly used with JavaScript
 */
 
-
+#middle {
+    border: 3px solid teal;
+    display: none;
+}
 
 /* CSS POSITIONS */
 
