@@ -14,7 +14,7 @@
 }
 
 
-/* 
+/*
 Box Model is made up of 4 parts: Content, Padding, Border, Margin
     Content - The content of the box, where text and images appear
     Padding - Clears an area around the content. The padding is transparent
@@ -22,7 +22,18 @@ Box Model is made up of 4 parts: Content, Padding, Border, Margin
     Margin - Clears an area outside the border. The margin is transparent
 */
 
+.box-model {
+    border: 5px solid red;
+    padding: 25px;
+    margin: 20px;
+}
 
+/*
+total size:
+height: 100px(content) + 2*25px (padding) + 2*5 (border)
++ 2*20 (margin) = 200px;
+width: 
+*/
 
 /* Simple Selector */
 /* element: grabs all of the elements base on the element name e.g h1,h2,p,div{} */
@@ -104,9 +115,9 @@ Box Model is made up of 4 parts: Content, Padding, Border, Margin
 
 
 
-/* 
+/*
     Display: None
-    Used to hide an element. Commonly used with JavaScript 
+    Used to hide an element. Commonly used with JavaScript
 */
 
 
@@ -122,4 +133,3 @@ Box Model is made up of 4 parts: Content, Padding, Border, Margin
 
 
 /* position: sticky -  positioned based on the user's scroll position - toggles between relative and fixed, depending on the scroll position */
-
